@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+/* CLASSI UTILITY */
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+/* FINE CLASSI UTILITY */
+
+/* CLASSI LAYOUT */
+
+.container-full{
+    width:100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100%/3);
+}
+
+.col-50{
+    width:50%;
+}
+
+.col-100{
+    width:100%;
+}
+
+.col-60{
+    width:60%;
+}
+
+.col-40{
+    width:40%;
+}
+
+.content-header{
+    background-color: red;
+    border:1px solid black;
+}
+
+/* FINE CLASSI LAYOUT */
+
+/* STYLE SECTION */
+
+header{
+    background-color: rgb(94, 94, 94);
+}
+
+header .row{
+    height:50px;
+}
+
+
+/* FINE STYLE SECTION */
