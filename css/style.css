@@ -15,6 +15,13 @@
     align-items: center;
 }
 
+.height-500{
+    height: 500px;
+}
+
+.height-300{
+    height: 300px;
+}
 
 /* FINE CLASSI UTILITY */
 
@@ -25,8 +32,15 @@
 }
 
 .container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.container-large{
     max-width: 1200px;
     margin:0 auto;
+    background-color: yellow;
+    border: 1px solid black;
 }
 
 .row{
@@ -64,7 +78,6 @@
 /* STYLE SECTION */
 
 header{
-    background-color: rgb(94, 94, 94);
 }
 
 header .row{
@@ -73,3 +86,11 @@ header .row{
 
 
 /* FINE STYLE SECTION */
+
+/* COLORI BACKGROUND */
+
+.bg-sky{
+    background-color: skyblue;
+}
+
+/* FINE COLORI BACKGROUND */
