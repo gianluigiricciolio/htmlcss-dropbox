@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: bolder;
+}
+
 
 /* CLASSI UTILITY */
 
@@ -15,12 +24,20 @@
     align-items: center;
 }
 
+.j-center{
+    justify-content: center;
+}
+
 .height-500{
     height: 500px;
 }
 
 .height-300{
     height: 300px;
+}
+
+.py-top-150{
+    padding-top:150px;
 }
 
 /* FINE CLASSI UTILITY */
@@ -48,23 +65,27 @@
     flex-wrap: wrap;
 }
 
-.col-33{
+.col{
+    border: 1px solid black;
+}
+
+.c-33{
     width: calc(100%/3);
 }
 
-.col-50{
+.c-50{
     width:50%;
 }
 
-.col-100{
+.c-100{
     width:100%;
 }
 
-.col-60{
+.c-60{
     width:60%;
 }
 
-.col-40{
+.c-40{
     width:40%;
 }
 
@@ -77,11 +98,15 @@
 
 /* STYLE SECTION */
 
-header{
-}
+
 
 header .row{
     height:50px;
+}
+
+.jumbo-img{
+    height: auto;
+    max-width: 100%;
 }
 
 
