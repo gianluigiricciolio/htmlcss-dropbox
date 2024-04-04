@@ -13,6 +13,11 @@ h1{
     font-weight: bolder;
 }
 
+img{
+    height: auto;
+    max-width: 100%;
+}
+
 
 /* CLASSI UTILITY */
 
@@ -40,6 +45,10 @@ h1{
     padding-top:150px;
 }
 
+.gap-30{
+    gap:30px;
+}
+
 /* FINE CLASSI UTILITY */
 
 /* CLASSI LAYOUT */
@@ -57,7 +66,6 @@ h1{
     max-width: 1200px;
     margin:0 auto;
     background-color: yellow;
-    border: 1px solid black;
 }
 
 .row{
@@ -70,7 +78,7 @@ h1{
 }
 
 .c-33{
-    width: calc(100%/3);
+    width: calc(100%/3 - 20px);
 }
 
 .c-50{
@@ -104,10 +112,8 @@ header .row{
     height:50px;
 }
 
-.jumbo-img{
-    height: auto;
-    max-width: 100%;
-}
+
+
 
 
 /* FINE STYLE SECTION */
