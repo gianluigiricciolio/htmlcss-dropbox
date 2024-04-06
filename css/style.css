@@ -9,14 +9,20 @@ body{
 }
 
 h1{
-    font-size: 5em;
-    font-weight: bolder;
+    font-size: 4.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 img{
     height: auto;
     max-width: 100%;
 }
+
+ul{
+    list-style: none;
+}
+
 
 .partner-square img{
     height: auto;
@@ -39,12 +45,28 @@ img{
     align-items: center;
 }
 
+.j-between{
+    justify-content: space-between;
+}
+
 .j-center{
     justify-content: center;
 }
 
-.height-500{
-    height: 500px;
+.j-left{
+    justify-content: left;
+}
+
+.j-right{
+    justify-content: right;
+}
+
+.height-490{
+    height: 490px;
+}
+
+.height-50{
+    height:50px;
 }
 
 .height-300{
@@ -59,6 +81,13 @@ img{
     padding-top:150px;
 }
 
+.py-top-200{
+    padding-top:200px;
+}
+.py-top-100{
+    padding-top:100px;
+}
+
 .mg-top-50{
     margin-top:50px;
     display: block;
@@ -66,6 +95,22 @@ img{
 
 .mg-50{
     margin:50px;
+}
+
+.mg-left-30{
+    margin-left: 30px;
+}
+
+.mg-right-30{
+    margin-right: 30px;
+}
+
+.hor-mg-20{
+    margin:0 20px;
+}
+
+.py-30{
+    padding:30px;
 }
 
 .py-70{
@@ -80,6 +125,18 @@ img{
     position: relative;
 }
 
+.p-fixed{
+    position:fixed;
+}
+
+.reverse-row{
+    flex-direction: row-reverse;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
 /* FINE CLASSI UTILITY */
 
 /* CLASSI LAYOUT */
@@ -89,12 +146,12 @@ img{
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 850px;
     margin:0 auto;
 }
 
 .container-large{
-    max-width: 1200px;
+    max-width: 1000px;
     margin:0 auto;
 }
 
@@ -104,7 +161,7 @@ img{
 }
 
 .col{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .gap-30 .c-33{
@@ -132,8 +189,7 @@ img{
 }
 
 .content-header{
-    background-color: red;
-    border:1px solid black;
+
 }
 
 
@@ -162,11 +218,19 @@ header .row{
     justify-content: center;
 }
 
+.btn-w-210{
+    width:210px;
+}
+
 .blue-btn{
     background-color: rgb(45, 45, 255);
     color:white;
-    padding: 10px 0;
-    width:210px
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.jumbotron .blue-btn{
+    padding: 10px 10px;
 }
 
 .white-btn{
@@ -186,6 +250,10 @@ header .row{
 
 .bg-sky{
     background-color: lightblue;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 .bg-red{
